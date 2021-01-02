@@ -3,7 +3,7 @@ module.exports = {
     title: `Tech crafts`,
     author: {
       name: `Roger Santos`,
-      summary: `vive em São Paulo escrevendo software.`,
+      summary: `atualmente mora em São Paulo escrevendo software.`,
     },
     description: `Roger Santos blog about software development.`,
     siteUrl: `https://rogersantos.dev/`,

@@ -28,7 +28,7 @@
   --spacing-24: 6rem;
   --spacing-32: 8rem;
   --fontFamily-sans: "Roboto", Arial, sans-serif;
-  --fontFamily-sans2: "Nunito Sans", Arial, sans-serif;
+  --fontFamily-sans2: "Roboto", Arial, sans-serif;
   --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans2);
   --fontWeight-normal: 400;
