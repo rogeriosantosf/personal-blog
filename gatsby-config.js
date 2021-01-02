@@ -21,5 +21,5 @@ module.exports = {
       },
       __key: "images",
     },
-  ],
+  ]
 };

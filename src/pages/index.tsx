@@ -22,10 +22,10 @@ const codeStyles = {
 }
 
 // markup
-const IndexPage = () => {
+const IndexPage: React.FC = () => {
   return (
     <main style={pageStyles}>
-      <title>Roger Santos</title>
+      <title>Roger Santos tech crafs</title>
       <Heading1>
         Roger Santos
       </Heading1>
