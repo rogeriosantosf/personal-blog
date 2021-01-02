@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `tech crafts`,
+    title: `Tech crafts`,
     author: {
-      name: `Rogério dos Santos`,
-      summary: `que mora em São Paulo e cria software.`,
+      name: `Roger Santos`,
+      summary: `vive em São Paulo escrevendo software.`,
     },
     description: `Roger Santos blog about software development.`,
     siteUrl: `https://rogersantos.dev/`,
