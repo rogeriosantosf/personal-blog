@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Tech crafts`,
+    title: `Bytes and Things`,
     author: {
       name: `Roger Santos`,
       summary: `atualmente mora em São Paulo escrevendo software.`,
