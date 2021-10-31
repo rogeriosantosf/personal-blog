@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Bytes and Things`,
+    title: `Rogério dos Santos`,
     author: {
-      name: `Roger Santos`,
-      summary: `atualmente mora em São Paulo escrevendo software.`,
+      name: `Rogério dos Santos`,
+      summary: '',
     },
-    description: `Roger Santos blog about software development.`,
-    siteUrl: `https://rogersantos.dev/`,
+    description: `Site sobre interações digitais e suas possibilidades.`,
+    siteUrl: `https://rogerio-dos-santos.com/`,
     social: {
-      twitter: `rogersanbr`,
+      twitter: `rogeriodossantos`,
     },
   },
   plugins: [
@@ -70,8 +70,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
