@@ -8,7 +8,7 @@ module.exports = {
     description: `Site sobre interações digitais e suas possibilidades.`,
     siteUrl: `https://rogerio-dos-santos.com/`,
     social: {
-      twitter: `rogeriodossantos`,
+      twitter: `rogsfernandes`,
     },
   },
   plugins: [
