@@ -71,5 +71,31 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        langKeyDefault: 'pt',
+        langKeyForNull: 'pt',
+        useLangKeyLayout: true,
+        pagesPaths: [`${__dirname}/content/blog`],
+        markdownRemark: {
+          postPage: 'src/templates/blog-post.js',
+          query: `
+          {
+            allMarkdownRemark {
+              edges {
+                node {
+                  fields {
+                    slug,
+                    langKey
+                  }
+                }
+              }
+            }
+          }
+        `,
+        },
+      },
+    },
   ],
 }
