@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 import Language from './language'
 
 const Layout: React.FC = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
+  const rootPaths = ['/', '/en/']
+  const isRootPath = rootPaths.includes(location.pathname)
   let header
 
   if (isRootPath) {
@@ -24,7 +24,7 @@ const Layout: React.FC = ({ location, title, children }) => {
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">
-        {header} <Language languages={['pt', 'en']} defaultLang={'pt'}/>
+        {header} <Language languages={['pt', 'en']} defaultLang={'pt'} />
       </header>
       <main>{children}</main>
       <footer>
