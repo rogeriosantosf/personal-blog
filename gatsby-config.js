@@ -76,8 +76,8 @@ module.exports = {
       options: {
         langKeyDefault: 'pt',
         langKeyForNull: 'pt',
-        useLangKeyLayout: true,
-        pagesPaths: [`${__dirname}/content/blog`],
+        useLangKeyLayout: false,
+        pagesPaths: [`${__dirname}/content/blog`, `./src/pages`],
         markdownRemark: {
           postPage: 'src/templates/blog-post.js',
           query: `

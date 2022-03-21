@@ -25,7 +25,7 @@ export type DataProps = {
     }>
   }
 }
-const BlogIndex: React.FC<PageProps<DataProps>> = ({ data, location }) => {
+const IndexEnPage: React.FC<PageProps<DataProps>> = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
@@ -83,10 +83,10 @@ const BlogIndex: React.FC<PageProps<DataProps>> = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default IndexEnPage
 
 export const pageQuery = graphql`
-  query IndexPtQuery {
+  query IndexEnQuery {
     site {
       siteMetadata {
         title
@@ -95,7 +95,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 5
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { langKey: { regex: "/(pt|any)/" } } }
+      filter: { fields: { langKey: { regex: "/(en|any)/" } } }
     ) {
       nodes {
         excerpt

@@ -1,9 +1,9 @@
 {
   "name": "personal-blog-jamstack",
-  "private": true,
-  "description": "Where I write about software",
+  "private": false,
+  "description": "Where I write about things",
   "version": "0.1.0",
-  "author": "Roger Santos <roger.santos.dev@gmail.com>",
+  "author": "Roger Santos <rogsfernandes@gmail.com>",
   "bugs": {
     "url": "https://github.com/rogersanbr/personal-blog-jamstack"
   },
