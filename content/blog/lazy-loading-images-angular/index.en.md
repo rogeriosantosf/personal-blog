@@ -4,11 +4,11 @@ date: "2020-09-16T10:31:03.284Z"
 description: "Make sure your customer have a great experience by only making them download your images when they are visible!"
 ---
 
-We all love to see images and gifs online. And we are using more and more the web to connect with people and things we love. So to make sure that your customer's experience will be great, you need to think about how you deliver your content. To avoid impacting his initial experience by delivering a lot of images at once, you should use a Lazy Loading Strategy to deliver images.
+We all love to see images and gifs online. And we are using more and more the web to connect with people and things we love. So to make sure that your customer's experience will be great, you need to think about how you deliver your content. To avoid impacting the initial experience by delivering a lot of images at once, you should use a Lazy Loading Strategy to deliver images.
 
 With this strategy, you are going make your customer's browser download the image only when it is <b>visible</b>. And by doing so you will optimize the page loading time.
 
-Look at what happens to the computer's network when we access Pinterest, this lovelly network where we can see beautiful things:
+Look at what happens to the computer's network when we access Pinterest, the images social network:
 
 <video autoplay loop style="width:100%">
   <source src="./pinterest-image-lazy-loading.mov" type="video/mp4">
