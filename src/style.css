@@ -248,6 +248,8 @@ a:focus {
 }
 
 .global-header {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: var(--spacing-12);
 }
 
