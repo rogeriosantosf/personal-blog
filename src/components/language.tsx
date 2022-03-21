@@ -1,19 +1,25 @@
 import { Link } from 'gatsby'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 type DataProps = {
   languages: Array<string>
-  defaultLang: string,
+  defaultLang: string
 }
 
 const Language: React.FC<DataProps> = ({ languages, defaultLang }) => {
+  const [origin, setOrigin] = useState<string>()
+  
+  useEffect(() => {
+    setOrigin(window.location.origin)
+  }, [])
+
   const toLink = (lang: string, index: number) => {
     const separator = index == 0 ? '' : '|'
     const path = lang === defaultLang ? '' : lang
-    const url = `${window.location.origin}/${path}`
+    const url = `${origin}/${path}`
     return (
       <Link key={lang} to={url}>
-        {separator} {lang} {' '}
+        {separator} {lang}{' '}
       </Link>
     )
   }
